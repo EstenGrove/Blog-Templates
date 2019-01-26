@@ -1,0 +1,17 @@
+{
+  "name": "pages",
+  "version": "1.0.0",
+  "description": "Single Blog Template",
+  "main": "app.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/styles.css -w"
+  },
+  "author": "EstenGrove",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.16.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
